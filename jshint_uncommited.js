@@ -152,7 +152,7 @@
     files.forEach(function (file) {
       if (jsExtRegExp.test(file)) {
         pathAndFilename = gitRoot + '/' + file;
-        sourceToLint = fs.readFileSync(pathAndFilename,'utf8');
+        sourceToLint = fs.readFileSync(pathAndFilename, 'utf8');
         if (JSHINT(sourceToLint, lintSettings) === false) {
           totalLintSuccess = false;
           console.log('Errors in: ' + file);
