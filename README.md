@@ -15,7 +15,7 @@ Requirements
 
 * Git
 * Node
-* JSHint
+* JSHint (installed as node module)
 * ..and probably a Mac. I haven't tested it elsewhere.
 
 
