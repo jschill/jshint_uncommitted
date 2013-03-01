@@ -1,11 +1,11 @@
-Similar to jslint_uncommited, but using JSHint instead of JSLint 
-For JSLint: https://github.com/jschill/jslint_uncommited
+Similar to jslint_uncommitted, but using JSHint instead of JSLint 
+For JSLint: https://github.com/jschill/jslint_uncommitted
 
 
-jshint_uncommited
-=================
+jshint_uncommitted
+==================
 
-JSHint uncommited javascript-files in a Git repository using Node.js
+JSHint uncommitted javascript-files in a Git repository using Node.js
 
 You can also use the pre-commit hook to lint your javascript-files on the fly when committing to your repository.
 
@@ -22,14 +22,14 @@ Requirements
 Installation
 ------------
 
-* Put the jshint_uncommited.js script somewhere in your git repository 
-* Run "node jshint_uncommited.js"
+* Put the jshint_uncommitted.js script somewhere in your git repository 
+* Run "node jshint_uncommitted.js"
 
 Or if you want to use the pre-commit hook
 
-* Put the jshint_uncommited.js script somewhere in your git repository 
+* Put the jshint_uncommitted.js script somewhere in your git repository 
 * Put the pre-commit in your {project_root_dir}/.git/hooks directory
-* Change the LINTSCRIPT variable in pre-commit to point to where you placed jshint_uncommited.js
+* Change the LINTSCRIPT variable in pre-commit to point to where you placed jshint_uncommitted.js
 * Make sure the pre-commit is executable, ie: "chmod +x pre-commit" or "chmod 755 pre-commit"
 
 
